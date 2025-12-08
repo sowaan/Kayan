@@ -24,6 +24,10 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+override_doctype_class = {
+    "Journal Entry": "kayan.overrides.journal_entry.CustomJournalEntry"
+}
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/kayan/css/kayan.css"
 # app_include_js = "/assets/kayan/js/kayan.js"
