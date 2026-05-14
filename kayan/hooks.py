@@ -28,6 +28,17 @@ override_doctype_class = {
     "Journal Entry": "kayan.overrides.journal_entry.CustomJournalEntry"
 }
 
+fixtures = [
+    {
+        "dt": "Print Format"
+    },
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["module", "=", "Kayan"]
+        ]
+    }
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/kayan/css/kayan.css"
 # app_include_js = "/assets/kayan/js/kayan.js"
